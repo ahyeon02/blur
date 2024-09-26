@@ -184,17 +184,17 @@ function fnMovePage(id, nextID) {
 			//$("#section_final").removeClass("none", "");
             
             if(final_cnt_1 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result1.png')"});
+				$("#section_dtl").css({"background-image" : "url('./img/final_result1.png')"});
 			} else if(final_cnt_2 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result2.png')"});
+				$("#section_dtl").css({"background-image" : "url('./img/final_result2.png')"});
 			} else if(final_cnt_3 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result3.png')"});
+				$("#section_dtl").css({"background-image" : "url('./img/final_result3.png')"});
 			} else if(final_cnt_4 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result4.png')"});
+				$("#section_dtl").css({"background-image" : "url('./img/final_result4.png')"});
 			} else if(final_cnt_5 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result5.png')"});
+				$("#section_dtl").css({"background-image" : "url('./img/final_result5.png')"});
 			} else if(final_cnt_6 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result6.png')"});
+				$("#section_dtl").css({"background-image" : "url('./img/final_result6.png')"});
 			} else if(final_cnt_7 == finalin) {
 				$("#section_dtl").css({"background-image" : "url('./img/fianl_result7.png')"});
 			} else if(final_cnt_8 == finalin) {
@@ -239,7 +239,6 @@ function fnMoveNextContent(id, clsNM, num) {
 }
 var myVar;
 function fn_move_detail() {
-	$("#load_msg").show();
 	//$("#section_final").hide();
 	
 	myVar = setTimeout(showPage, 3000);
@@ -247,7 +246,6 @@ function fn_move_detail() {
 
 
 function showPage() {
-	$("#load_msg").hide();
 	$("#section_final").hide();
 	$("#section_dtl").show();
 }

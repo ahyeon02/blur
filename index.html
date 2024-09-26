@@ -15,7 +15,7 @@
   <div href="#" id="section_0_1" class="panels" >
 	<div class="msform" style="height: 100%;">
 	      <div id="step_bottom">
-	      	<button tyoe="button" id="step_btn" class="btn" onclick="fnMovePage('#section_0_1', '#section_1')">나의 사랑표현방법 찾아보기</button>
+	      	<button tyoe="button" id="step_btn" class="btn" onclick="fnMovePage('#section_0_1', '#section_1')"></button>
 	      </div>
 	 </div>
   </div>
@@ -176,7 +176,7 @@
 	        <h3>11번. 나는 실패를 두려워하고, 사람들에 대한 배려보다는 일의 성과를 우선시한다.</h3>
 	        <a href="#" onclick="fnMoveNextContent('step_11', 'set_1', 1)">
 	          <li class="set_1">거의 그렇지 않다</li>
-	        </a>
+	        </a>f
 	        <a href="#" onclick="fnMoveNextContent('step_11', 'set_2', 2)">
 	          <li class="set_2">그렇지 않은 편이다</li>
 	        </a>
@@ -427,10 +427,6 @@
 	          <li class="set_4">매우 그렇다</li>
 	        </a>
 	      </ul>
-	      <fieldset>
-        <input type="button" onclick="fnMovePage('#section_1', '#section_0_1')" name="next" id="prev"
-          class="next action-button2" value="" style="float: left;" />
-      </fieldset>
 	    </div>
 	    
     </div>
@@ -438,19 +434,10 @@
  </div>
 
   <div id="section_final" class="panels none">
-	<div class="msform animate-bottom" style="height: 100%;">
-	      <div id="step_final_top">
-	        <h3 class="result_text">
-				남을 위한 말이 아닌!<br/> 
-				나를 위한 말을 더해주는 Dear<br/>
-				소중한 당신에게..
-			</h3>
-	      </div>
-	      
-	      <div id="step_final_down">
-			<h3 class="final_bk_wh">당신에게 온 편지를 수신중입니다...</h3>  
-		  </div>
-	 </div>
+	<div class="bg-video">
+		<video id="background-video" class="panels" src="img/loadpage.mp4" type="video/mp4" height="100%" autoplay muted loop>
+		</video>
+	  </div>
   </div>
 
 <div id="load_msg" class="none">  
@@ -460,7 +447,6 @@
 </div>
 
   <div id="section_dtl" class="panels none" >
-	  
   </div>
   
 </body>
