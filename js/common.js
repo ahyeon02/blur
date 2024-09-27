@@ -196,11 +196,11 @@ function fnMovePage(id, nextID) {
 			} else if(final_cnt_6 == finalin) {
 				$("#section_dtl").css({"background-image" : "url('./img/final_result6.png')"});
 			} else if(final_cnt_7 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result7.png')"});
+				$("#section_dtl").css({"background-image" : "url('./img/final_result7.png')"});
 			} else if(final_cnt_8 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result8.png')"});
+				$("#section_dtl").css({"background-image" : "url('./img/final_result8.png')"});
 			} else if(final_cnt_9 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result9.png')"});
+				$("#section_dtl").css({"background-image" : "url('./img/final_result9.png')"});
 			}
 			$("#section_final").show();
             fn_move_detail();

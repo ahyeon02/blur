@@ -58,7 +58,7 @@ body {
 #section_scroll {
     height: 90%;
     overflow: auto;
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
 #section_2 {
@@ -419,9 +419,15 @@ body {
 }
 
 #section_dtl {
+    position: relative;
+    width: 100%;
+    height: 280vh;
     background-image: url("../img/fianl_result1.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: auto;
 }
 
 #bg-video {
