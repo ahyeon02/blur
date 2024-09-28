@@ -431,7 +431,7 @@ body {
 }
   
 #background-video {
-    min-width: 120vw;
+    min-width: 100vw;
     min-height: 100vh;
     object-fit: cover;
 }
