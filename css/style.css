@@ -38,14 +38,8 @@ body {
 
 #section_0_1 {
     background-image: url("../img/main_background.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-}
-
-#section_0_2 {
-    background-image: url("../img/pado_intro.png");
-    background-size: cover;
-    background-repeat: round;
 }
 
 #section_1 {
@@ -61,68 +55,8 @@ body {
     margin-top: 180px;
 }
 
-#section_2 {
-    background-image: url("../img/step_02.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_3 {
-    background-image: url("../img/step_03.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_4 {
-    background-image: url("../img/step_04.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_5 {
-    background-image: url("../img/step_05.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_6 {
-    background-image: url("../img/step_06.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_7 {
-    background-image: url("../img/step_07.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_8 {
-    background-image: url("../img/step_08.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_9 {
-    background-image: url("../img/step_09.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_10 {
-    background-image: url("../img/step_11.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_11 {
-    background-image: url("../img/step_12.png");
-    background-size: cover;
-    background-repeat: round;
-}
-
-#section_12 {
-    background-image: url("../img/step_13.png");
+#section_final {
+    background-image: url("../img/loadpage.png");
     background-size: cover;
     background-repeat: round;
 }
@@ -315,7 +249,7 @@ body {
 
 .progressbar li {
     list-style-type: none;
-    color: #324b71;
+    color: #000;
     text-transform: uppercase;
     font-size: 18px;
     width: 25%;
@@ -331,7 +265,7 @@ body {
     line-height: 35px;
     display: block;
     font-size: 25px;
-    color: #324b71;
+    color: #000;
     box-shadow: -0.5px -0.5px;
     border-radius: 30px;
     margin: 0 auto 5px auto;
@@ -358,13 +292,13 @@ body {
 /*marking active/completed steps green*/
 /*The number of the step and the connector before it = green*/
 .progressbar li.active:before, .progressbar li.active:after {
-    background: #be4d30;
+    background: #000;
     color: white;
 }
 
 .progressbar h3 {
     font-size: 22px;
-    color: #324b71;
+    color: #000;
     text-align: left;
     font-family: 'SOYOMapleBoldTTF';
 }
@@ -520,17 +454,17 @@ body {
     line-height: 1.8;
 }
 
-#step_bottom {
+#step_botton {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     height: 100%;
     justify-content: center;
 }
 
 #step_btn {
-    height: 55vw;
-    width: 40vw;
-    margin-bottom: 240px;
+    height: 30vw;
+    width: 30vw;
+    margin-top: 40%;
     color: rgba(0,0,0,0);
     opacity: 0;
     border-radius: 40px;
