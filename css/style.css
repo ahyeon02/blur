@@ -40,6 +40,7 @@ body {
     background-image: url("../img/main_background.png");
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 #section_1 {
